@@ -1,4 +1,4 @@
-*/Arduino Uno Development Board/*
+/*Arduino Uno Development Board*/
 const int RelayPin1 = 2; // Change this to the pin you're using
 const int RelayPin2 = 4;
 const int RelayPin3 = 7;
