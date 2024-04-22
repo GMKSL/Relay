@@ -1,5 +1,8 @@
-/*Arduino Uno Development Board*/
-const int RelayPin1 = 2; // Change this to the pin you're using
+/*
+This program is for ACTIVE LOW Relay Board connected to Arduino UNO development board.
+2,4,7,8,12 and 13 all these pins are Digital pins of Arduino UNO.
+*/
+const int RelayPin1 = 2;
 const int RelayPin2 = 4;
 const int RelayPin3 = 7;
 const int RelayPin4 = 8;
@@ -7,13 +10,15 @@ const int RelayPin5 = 12;
 const int RelayPin6 = 13;
 
 void setup() {
-    Serial.begin(9600);
+    Serial.begin(9600); // Arduino UNO Baudrate
+    /*Keeping All pins in OUTPUT Direction*/
     pinMode(RelayPin1, OUTPUT);
     pinMode(RelayPin2, OUTPUT);
     pinMode(RelayPin3, OUTPUT);
     pinMode(RelayPin4, OUTPUT);
     pinMode(RelayPin5, OUTPUT);
     pinMode(RelayPin6, OUTPUT);
+    /*Initially keeping all Relays ON*/
     digitalWrite(RelayPin1,LOW);
     digitalWrite(RelayPin2,LOW);
     digitalWrite(RelayPin3,LOW);
