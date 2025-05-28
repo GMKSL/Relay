@@ -1,51 +1,167 @@
-[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 92.92, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:27'}
-[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 64.19, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:30'}
-[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 67.01, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:31'}
-[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 63.51, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:13:34'}
-[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 79.77, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:37'}
-[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 44.29, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:40'}
-[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 36.98, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:44'}
-[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 37.29, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:48'}
-[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 92.92, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:27'}+ '
-'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 64.19, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:30'}+ '
-'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 67.01, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:31'}+ '
-'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 63.51, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:13:34'}+ '
-'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 79.77, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:37'}+ '
-'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 44.29, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:40'}+ '
-'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 36.98, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:44'}+ '
-'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 37.29, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:13:48'}+ '
-'[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 65.12, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:21:31'}
-[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 73.41, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:21:34'}
-[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 71.46, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:21:38'}
-[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 59.96, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:21:42'}
-[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 39.06, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:21:46'}
-[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 90.44, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:21:50'}
-[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 98.55, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:21:53'}
-[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 25.88, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:21:54'}
-[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 50.18, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:21:58'}
-[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 25.9, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:22:00'}
-[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 72.42, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:22:03'}
-[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 92.54, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:22:05'}
-[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 87.84, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:22:09'}
-[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 41.25, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:22:13'}
-[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 49.73, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:22:17'}
-[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 65.12, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:21:31'}+ '
-'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 73.41, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:21:34'}+ '
-'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 71.46, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:21:38'}+ '
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 73.44, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:20:40'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 36.33, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:20:43'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 61.61, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:20:47'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 61.56, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:20:51'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 83.11, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:20:54'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 50.46, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:20:57'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 50.89, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:21:00'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 85.4, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:21:03'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 37.73, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:21:09'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 61.52, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:21:12'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 72.58, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:21:14'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 49.92, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:21:23'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 80.13, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:21:28'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 54.94, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:21:32'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 43.03, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:21:37'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 79.26, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:21:39'}
+[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 73.44, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:20:40'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 36.33, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:20:43'}+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 61.61, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:20:47'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 61.56, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:20:51'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 83.11, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:20:54'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 50.46, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:20:57'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 50.89, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:21:00'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 85.4, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:21:03'}+ '
 '[SENSOR] Request failed: Simulated network failure+ '
 '[SENSOR] Request failed: Simulated network failure+ '
-'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 59.96, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:21:42'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 37.73, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:21:09'}+ '
 '[SENSOR] Request failed: Simulated network failure+ '
-'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 39.06, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:21:46'}+ '
-'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 90.44, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:21:50'}+ '
-'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 98.55, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:21:53'}+ '
-'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 25.88, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:21:54'}+ '
-'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 50.18, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:21:58'}+ '
-'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 25.9, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:22:00'}+ '
-'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 72.42, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:22:03'}+ '
-'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 92.54, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:22:05'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 61.52, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:21:12'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 72.58, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:21:14'}+ '
 '[SENSOR] Request failed: Simulated network failure+ '
-'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 87.84, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:22:09'}+ '
-'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 41.25, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-04-26 02:22:13'}+ '
-'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 49.73, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-04-26 02:22:17'}+ '
-'
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 49.92, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:21:23'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 80.13, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:21:28'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 54.94, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:21:32'}+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 43.03, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:21:37'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 79.26, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:21:39'}+ '
+'[SENSOR] Data generation completed.[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 54.33, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:57:38'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 93.49, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:57:41'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 39.19, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:57:44'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 53.48, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:57:48'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 47.39, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:57:49'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 62.06, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:57:53'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 67.11, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:57:58'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 75.28, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:58:03'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 43.67, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:05'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 24.81, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:09'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 60.4, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:13'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 86.34, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:16'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 81.57, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:18'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 93.31, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:20'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 85.13, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:23'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 29.31, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:58:26'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 70.19, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:28'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 53.32, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:32'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 26.34, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:58:35'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 47.2, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:58:37'}
+[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 54.33, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:57:38'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 93.49, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:57:41'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 39.19, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:57:44'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 53.48, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:57:48'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 47.39, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:57:49'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 62.06, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:57:53'}+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 67.11, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:57:58'}+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 75.28, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:58:03'}+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 43.67, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:05'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 24.81, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:09'}+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 60.4, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:13'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 86.34, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:16'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 81.57, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:18'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 93.31, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:20'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 85.13, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:23'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 29.31, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:58:26'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 70.19, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:28'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 53.32, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 14:58:32'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 26.34, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:58:35'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 47.2, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 14:58:37'}+ '
+'[SENSOR] Data generation completed.[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 18.97, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:02'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 25.94, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:06'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 71.59, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:08'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 40.48, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:12'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 87.1, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:16'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 86.3, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:18'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 83.97, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:21'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 19.15, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:23'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 56.64, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:26'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 35.12, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:30'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 23.94, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:33'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 44.41, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:35'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 64.46, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:39'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 45.91, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:41'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 46.37, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:44'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 96.58, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:48'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 79.26, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:51'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 11.37, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:55'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 89.22, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:58'}
+[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 18.97, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:02'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 25.94, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:06'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 71.59, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:08'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 40.48, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:12'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 87.1, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:16'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 86.3, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:18'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 83.97, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:21'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 19.15, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:23'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 56.64, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:26'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 35.12, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:30'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 23.94, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:33'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 44.41, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:35'}+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 64.46, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:39'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 45.91, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:41'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 46.37, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:44'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 96.58, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:48'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 79.26, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:51'}+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 11.37, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:03:55'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 89.22, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:03:58'}+ '
+'[SENSOR] Data generation completed.[SENSOR] Request failed: Simulated network failure+ '
+'[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 19.45, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:02'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 88.26, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:13:05'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 13.06, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:13:08'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 89.18, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:12'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 43.91, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:16'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 39.18, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:18'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 47.67, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:13:22'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 68.66, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:26'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 64.36, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:29'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 62.65, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:33'}
+[RECEIVER] Valid data received:{'device': 'Smart AC', 'power_watts': 53.86, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:34'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 14.27, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:13:37'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 31.39, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:40'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 68.87, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:44'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 88.7, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:46'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 56.17, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:49'}
+[RECEIVER] Valid data received:{'device': 'Smart Light', 'power_watts': 26.43, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:53'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 86.26, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:13:56'}
+[RECEIVER] Valid data received:{'device': 'Smart Fan', 'power_watts': 97.13, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:14:01'}
+[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 19.45, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:02'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 88.26, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:13:05'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 13.06, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:13:08'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 89.18, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:12'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 43.91, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:16'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 39.18, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:18'}+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 47.67, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:13:22'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 68.66, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:26'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 64.36, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:29'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 62.65, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:33'}+ '
+'[SENSOR] Sent: {'device': 'Smart AC', 'power_watts': 53.86, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:34'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 14.27, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:13:37'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 31.39, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:40'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 68.87, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:44'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 88.7, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:46'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 56.17, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:49'}+ '
+'[SENSOR] Sent: {'device': 'Smart Light', 'power_watts': 26.43, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:13:53'}+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 86.26, 'unit': 'W', 'status': 'ON', 'timestamp': '2025-05-28 15:13:56'}+ '
+'[SENSOR] Request failed: Simulated network failure+ '
+'[SENSOR] Sent: {'device': 'Smart Fan', 'power_watts': 97.13, 'unit': 'W', 'status': 'OFF', 'timestamp': '2025-05-28 15:14:01'}+ '
+'[SENSOR] Data generation completed.
