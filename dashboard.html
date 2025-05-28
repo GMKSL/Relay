@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Energy Monitoring Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        canvas {
+            width: 100%;
+            height: 300px;
+        }
+</style>
+</head>
+<body>
+<h1>Smart Home Energy Monitoring System</h1>
+<div class="container">
+<div class="card">
+<h2>Real-Time Power Consumption</h2>
+<p id="real-time-consumption">Loading...</p>
+</div>
+<div class="card">
+<h2>Average Power Usage</h2>
+<p id="average-usage">Loading...</p>
+</div>
+<div class="card">
+<h2>Peak Usage Period</h2>
+<p id="peak-usage">Loading...</p>
+</div>
+</div>
+ 
+<!--    <div class="card">
+<h2>Energy Consumption Chart</h2>
+<canvas id="energyChart"></canvas>
+</div>
+-->
+
+<meta charset="UTF-8">
+  <title>Power Consumption Chart</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    #chart-container {
+      width: 80%;
+      margin: auto;
+    }
+  </style>
+  <h2 style="text-align:center">Power Consumption Over Time</h2>
+  <div id="chart-container">
+    <canvas id="powerChart"></canvas>
+  </div>
+ 
+    <script>
+        async function fetchData() {
+            const response = await fetch('/get_sensor_data');
+            const data = await response.json();
+ 
+            const powerData = data.map(entry => entry.power_consumption);
+            const timestamps = data.map(entry => entry.timestamp);
+            // Calculate the average power usage
+            const totalPower = powerData.reduce((sum, value) => sum + value, 0);
+            const averagePower = totalPower / powerData.length;
+            // Find the peak usage period
+            const peakUsage = Math.max(...powerData);
+            const peakTimestamp = timestamps[powerData.indexOf(peakUsage)];
+ 
+            document.getElementById('real-time-consumption').textContent = `Current Power: ${powerData[powerData.length - 1]} W`;
+            document.getElementById('average-usage').textContent = `Average Power: ${averagePower.toFixed(2)} W`;
+            document.getElementById('peak-usage').textContent = `Peak Power Usage: ${peakUsage} W at ${peakTimestamp}`;
+ 
+            // Draw the chart
+            /*const ctx = document.getElementById('energyChart').getContext('2d');
+            const chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: timestamps,
+                    datasets: [{
+                        label: 'Power Consumption (W)',
+                        data: powerData,
+                        borderColor: 'rgb(75, 192, 192)',
+                        fill: false
+                    }]
+                }
+            });
+            */
+            // Create chart
+	        const ctx = document.getElementById('powerChart').getContext('2d');
+	        new Chart(ctx, {
+	          type: 'line',
+	          data: {
+	            labels: timestamps,
+	            datasets: [{
+	              label: 'Power Consumption (W)',
+	              data: powerData,
+	              borderColor: 'rgba(75, 192, 192, 1)',
+	              backgroundColor: 'rgba(75, 192, 192, 0.2)',
+	              fill: true,
+	              tension: 0.3
+	            }]
+	          },
+	          options: {
+	            responsive: true,
+	            scales: {
+	              x: {
+	                title: { display: true, text: 'Timestamp' }
+	              },
+	              y: {
+	                beginAtZero: true,
+	                title: { display: true, text: 'Power (W)' }
+	              }
+	            }
+	          }
+	        });
+        }
+ 
+        fetchData();
+</script>
+</body>
+</html>
